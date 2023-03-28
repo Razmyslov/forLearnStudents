@@ -1,0 +1,47 @@
+@font-face {
+    src: url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+    font-family: Heebo;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+div.container{
+    width: 1152px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+header{
+    height: 80px;
+
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+}
+
+header div.container{
+    display: flex;
+    justify-content: right; /*x ось*/
+    align-items: center; /*ось y*/
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 200px;
+
+    border: 1px solid #000000;
+}
+
+header a{
+    color: black;
+}
