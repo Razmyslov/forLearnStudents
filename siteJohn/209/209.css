@@ -11,6 +11,10 @@ a{
 
 header{
     height: 80px;
+}
+
+header div.container{
+    height: 100%;
     display: flex;
     justify-content: right;
     align-items: center;
@@ -26,4 +30,10 @@ nav{
 div.container{
     width: 1152px;
     margin: 0 auto;
+}
+
+div.personal-info div.container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
