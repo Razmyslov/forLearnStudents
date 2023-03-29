@@ -46,5 +46,48 @@ header a{
 
 div.personal-info div.container{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    margin-bottom: 60px;
+    align-items: center;
+}
+
+div.personal-info div.info{
+    width: 600px;
+    font-family: Heebo, sans-serif;
+}
+
+div.personal-info div.info h1{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+div.personal-info div.info p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 40px;
+}
+
+div.personal-info div.info button{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: white;
+    background-color: rgba(255, 100, 100, 1);
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    transition: .2s;
+}
+
+div.personal-info div.info button:hover{
+    transform: scale(1.05);
+}
+
+div.personal-info div.personal-image{
+    width: 200px;
+    border-radius: 50%;
 }
