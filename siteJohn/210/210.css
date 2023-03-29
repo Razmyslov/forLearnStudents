@@ -43,3 +43,8 @@ header nav{
 header a{
     color: black;
 }
+
+div.personal-info div.container{
+    display: flex;
+    justify-content: space-between;
+}
