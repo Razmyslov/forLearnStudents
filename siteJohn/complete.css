@@ -14,14 +14,13 @@ a{
 }
 
 div.container{
-    width: 1152px;
+    width: 900px;
     margin: 0 auto;
     height: 100%;
 }
 
 header{
     height: 80px;
-
     font-family: Heebo, sans-serif;
     font-weight: 400;
 }
@@ -46,8 +45,8 @@ header a{
 
 div.personal-info div.container{
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 100px;
+    justify-content: space-between;
+    margin-top: 60px;
     margin-bottom: 60px;
     align-items: center;
 }
@@ -94,6 +93,7 @@ div.personal-info div.personal-image{
 
 div.recent-posts{
     background-color: rgba(237, 247, 250, 1);
+    padding: 40px 0;
 }
 
 div.recent-posts div.info{
@@ -101,6 +101,7 @@ div.recent-posts div.info{
     justify-content: space-between;
     font-family: Heebo, sans-serif;
     font-weight: 400;
+    margin-bottom: 20px;
 }
 
 div.recent-posts div.posts{
@@ -111,8 +112,9 @@ div.recent-posts div.posts{
 
 div.recent-posts div.post{
     background: white;
-    padding: 10px;
-    width: 46%;
+    padding: 30px;
+    width: 40%;
+    font-family: Heebo, sans-serif;
 }
 
 div.recent-posts div.post h3{
@@ -122,9 +124,97 @@ div.recent-posts div.post h3{
 
 div.recent-posts div.date{
     display: flex;
-    margin: 15px 0;
+    margin: 20px 0;
+    font-size: 18px;
+    font-weight: 400;
 }
 
 div.recent-posts div.date p{
     margin: 0 10px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+div.featured-works{
+    padding: 60px 0;
+    font-family: Heebo, sans-serif;
+}
+
+div.featured-works div.works{
+    margin-top: 30px;
+}
+
+div.featured-works div.works hr{
+    margin: 20px 0;
+    border: 1px solid rgba(224, 224, 224, 1)
+}
+
+div.featured-works div.work{
+    display: flex;
+    justify-content: left;
+}
+
+div.featured-works div.work img{
+    margin-right: 20px;
+    height: 180px;
+    width: 246px;
+    border-radius: 6px;
+}
+
+div.featured-works div.description h3{
+    font-weight: 700;
+    font-size: 30px;
+}
+
+div.featured-works div.description div.date{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+div.featured-works div.description div.date p.year{
+    padding: 5px 10px;
+    background: rgba(20, 40, 80, 1);
+    border-radius: 20px;
+    color: #fff;
+    margin-right: 10px;
+    font-weight: 900;
+    font-size: 18px;
+}
+
+div.featured-works div.description div.date p.program{
+    font-weight: 400;
+    font-size: 20px;
+    color: rgba(134, 149, 164, 1);
+}
+
+div.featured-works div.description p.description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+footer div.social{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+footer img{
+    width: 30px;
+    height: 30px;
+}
+
+footer p{
+    font-family: Heebo, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
 }
