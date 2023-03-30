@@ -91,3 +91,41 @@ div.personal-info div.personal-image{
     width: 200px;
     border-radius: 50%;
 }
+
+div.recent-posts{
+    background-color: rgba(237, 247, 250, 1);
+}
+
+div.recent-posts div.info{
+    display: flex;
+    justify-content: space-between;
+    font-family: Heebo, sans-serif;
+    font-weight: 400;
+}
+
+div.recent-posts div.posts{
+    display: flex;
+    justify-content: space-between;
+    font-family: Heebo, sans-serif;
+}
+
+div.recent-posts div.post{
+    background: white;
+    padding: 10px;
+
+    width: 46%;
+}
+
+div.recent-posts div.post h3{
+    font-size: 26px;
+    font-weight: 700;
+}
+
+div.recent-posts div.date{
+    display: flex;
+    margin: 15px 0;
+}
+
+div.recent-posts div.date p{
+    margin: 0 10px;
+}
