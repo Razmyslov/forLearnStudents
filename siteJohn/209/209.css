@@ -124,3 +124,57 @@ div.recent-posts div.post p.description{
     line-height: 24px;
 }
 
+div.featured-works{
+    padding: 40px 0;
+    font-family: Heebo, sans-serif;
+}
+
+div.featured-works div.work{
+    display: flex;
+    justify-content: left;
+}
+
+div.featured-works div.work img{
+    height: 180px;
+    width: 246px;
+    border-radius: 6px;
+    border: 1px solid red;
+    margin-right: 10px;
+}
+
+div.featured-works div.work h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+div.featured-works div.work div.date{
+    display: flex;
+    justify-content: left;
+    margin: 10px 0;
+    align-items: center;
+}
+
+div.featured-works div.work div.date p.year{
+    font-size: 18px;
+    font-weight: 900;
+    color: white;
+    background: rgba(20, 40, 80, 1);
+    padding: 5px 15px;
+    border-radius: 15px;
+    margin-right: 10px;
+}
+
+div.featured-works div.work p.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+div.featured-works hr{
+    margin: 20px 0;
+}
+
+div.featured-works div.works{
+    margin-top: 40px;
+}
