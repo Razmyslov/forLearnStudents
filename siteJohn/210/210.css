@@ -130,3 +130,77 @@ div.recent-posts div.date{
 div.recent-posts div.date p{
     margin: 0 10px;
 }
+
+div.featured-works{
+    padding: 40px 0;
+    font-family: Heebo, sans-serif;
+}
+
+div.featured-works div.info{
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 60px;
+    margin-bottom: 40px;
+}
+
+div.featured-works div.work{
+    display: flex;
+    justify-content: left;
+}
+
+div.featured-works img{
+    margin-right: 15px;
+}
+
+div.featured-works h3{
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 44px;
+}
+
+div.featured-works div.date{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 20px 0;
+}
+
+div.featured-works div.date p.year{
+    padding: 5px 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 900;
+    background: black;
+    border-radius: 20px;
+    margin-right: 10px;
+}
+
+div.featured-works div.date p.title{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 29px;
+    color: rgba(134, 149, 164, 1);
+}
+
+div.featured-works p.description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+div.featured-works hr{
+    margin: 20px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+}
+
+footer div.images{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
