@@ -218,3 +218,13 @@ footer p{
     font-weight: 400;
     line-height: 21px;
 }
+
+a.active{
+    color: rgba(255, 100, 100, 1);
+}
+
+p.work{
+    font-size: 44px;
+    font-weight: 900;
+    line-height: 60px;
+}
