@@ -27,19 +27,14 @@ header div.container button{
     border: 1px solid black;
 }
 
-div.form{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 form {
+    width: 500px;
+    margin:0 auto 30px auto;
     text-align: center;
     display: block;
     border: 1px solid black;
     border-radius: 10px;
     padding: 20px;
-    margin-bottom: 30px;
 }
 
 form p{
@@ -67,4 +62,40 @@ form button{
 
 hr{
     margin-bottom: 20px;
+}
+
+h3{
+    font-size: 25pt;
+    margin-bottom: 40px;
+}
+
+div.post{
+    border-left: 5px solid green;
+    padding-left: 10px;
+    margin-bottom: 20px;
+}
+
+div.post p.title{
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+div.post p.description{
+    margin-bottom: 20px;
+}
+
+div.post div.navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.post button.desc{
+    background-color: green;
+    color: white;
+}
+
+div.post button.delete{
+    background-color: red;
+    color: white;
 }
