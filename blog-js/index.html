@@ -2,6 +2,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+<!--    <link rel="stylesheet" href="style.css">-->
+    <title>Document</title>
+</head><!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -9,14 +15,14 @@
     <title>Document</title>
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1>Blog</h1>
-            <button>Добавить пост</button>
-        </div>
-    </header>
-    <main>
-        <div class="container">
+<header>
+    <div class="container">
+        <h1>Blog</h1>
+        <button>Добавить пост</button>
+    </div>
+</header>
+<main>
+    <div class="container">
         <form id="form">
             <p>Добавить пост</p>
             <input id="input" type="text" placeholder="Название поста" name="title">
@@ -25,17 +31,15 @@
         </form>
         <hr>
         <h3>Все посты</h3>
-            <div class="posts">
-                <div class="post">
-                    <p class="title"> ${post.title} </p>
-                    <p class="description"> ${post.description} </p>
-                    <div class="navigate">
-                        <button class="desc">Описание</button>
-                        <button class="delete">Удалить</button>
-                    </div>
-                </div>
-            </div>
+        <div class="posts">
         </div>
-    </main>
+    </div>
+</main>
+<script src="app.js"></script>
+</body>
+</html>
+
+<body>
+    <script src="app.js"></script>
 </body>
 </html>
