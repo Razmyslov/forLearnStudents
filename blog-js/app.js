@@ -1,6 +1,9 @@
-const allPosts = [
-    {title: 'postN1', description: 'desc1'},
-];
+if(!localStorage.getItem('posts')){
+    localStorage.setItem('posts',
+        JSON.stringify([]))
+}
+
+const allPosts = JSON.parse(localStorage.getItem('posts'))
 
 const posts = document.querySelector('div.posts');
 
@@ -41,6 +44,8 @@ form.addEventListener('submit', (e)=>{
         title: title,
         description: description
     });
+
+    localStorage.setItem('posts', JSON.stringify(allPosts));
 
     generateAllPosts();
 })
