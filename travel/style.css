@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a.active{
+    color: black;
+}
+
+.sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+header{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+
+div.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+div.logo{
+    background-color: #1ABE84;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+div.logo div.orange{
+    background-color: #FB8F1D;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+nav{
+    width: 55%;
+    align-items: center;
+}
+
+nav a{
+    color: gray;
+}
+
+nav a.login{
+    padding: 10px 30px;
+    color: #FB8F1D;
+    border: 2px solid #FB8F1D;
+    border-radius: 10px;
+    transition: 200ms;
+}
+
+nav a.login:hover{
+    color: white;
+    background-color: #FB8F1D;
+}
+
+nav a.register{
+    padding: 10px 30px;
+    color: white;
+    border-radius: 10px;
+    transition: 200ms;
+    background-color: #FB8F1D;
+    border: 2px solid #FB8F1D;
+}
+
+nav a.register:hover{
+    border: 2px solid #FB8F1D;
+    color: #FB8F1D;
+    background-color: white;
+}
+
+div.explore-travel{
+
+}
+
+div.explore-travel div.info{
+    width: 48%;
+}
+
+div.explore-travel div.info h1{
+    font-size: 80px;
+    margin-bottom: 40px;
+}
+
+div.explore-travel div.info div.line{
+    border: 1px solid black;
+    width: 40px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+
+
+div.explore-travel div.image{
+    width: 48%;
+}
+
+div.explore-travel div.image img{
+    width: 100%;
+}
