@@ -85,7 +85,7 @@ nav a.register:hover{
 }
 
 div.explore-travel{
-
+    margin: 50px 0;
 }
 
 div.explore-travel div.info{
@@ -104,7 +104,31 @@ div.explore-travel div.info div.line{
     margin: 20px 0;
 }
 
+div.explore-travel div.info form{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 70%;
+    margin-top: 30px;
+}
 
+div.explore-travel div.info form select{
+    width: 47%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div.explore-travel div.info form button{
+    width: 47%;
+    padding: 10px;
+    background-color: #FB8F1D;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
 
 div.explore-travel div.image{
     width: 48%;
@@ -112,4 +136,40 @@ div.explore-travel div.image{
 
 div.explore-travel div.image img{
     width: 100%;
+}
+
+div.new-way{
+    align-items: center;
+    margin: 40px 0;
+}
+
+div.new-way div.image{
+    width: 47%;
+}
+
+div.new-way div.image img{
+    width: 100%;
+}
+
+div.new-way div.info{
+    width: 47%;
+}
+
+div.new-way div.info h2{
+    font-size: 50px;
+}
+
+div.new-way div.info p{
+    color: gray;
+    margin: 30px 0;
+}
+
+div.new-way div.info button{
+    width: 30%;
+    padding: 10px;
+    background-color: #FB8F1D;
+    color: white;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
 }
