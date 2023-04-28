@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btnOrange{
+    background-color: #FB8F1D;
+    padding: 10px 25px;
+    color: white;
+    border-radius: 5px;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a.active{
+    color: black;
+}
+
+header{
+    height: 100px;
+    align-items: center;
+}
+
+header div.logo{
+    background-color: #1ABE84;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header div.logo div.orange{
+    height: 30px;
+    width: 30px;
+    border: 5px solid white;
+    border-radius: 50%;
+    background-color: #FB8F1D;
+}
+
+header nav{
+    align-items: center;
+    width: 45%;
+}
+
+header nav a.login{
+    background-color: white;
+    padding: 10px 25px;
+    color: #FB8F1D;
+    border: 1px solid #FB8F1D;
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
