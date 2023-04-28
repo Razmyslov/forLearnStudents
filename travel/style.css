@@ -138,33 +138,33 @@ div.explore-travel div.image img{
     width: 100%;
 }
 
-div.new-way{
+div.right-left{
     align-items: center;
     margin: 40px 0;
 }
 
-div.new-way div.image{
+div.right-left div.image{
     width: 47%;
 }
 
-div.new-way div.image img{
+div.right-left div.image img{
     width: 100%;
 }
 
-div.new-way div.info{
+div.right-left div.info{
     width: 47%;
 }
 
-div.new-way div.info h2{
+div.right-left div.info h2{
     font-size: 50px;
 }
 
-div.new-way div.info p{
+div.right-left div.info p{
     color: gray;
     margin: 30px 0;
 }
 
-div.new-way div.info button{
+div.right-left div.info button{
     width: 30%;
     padding: 10px;
     background-color: #FB8F1D;
@@ -172,4 +172,43 @@ div.new-way div.info button{
     cursor: pointer;
     border: none;
     border-radius: 5px;
+}
+
+div.featured-destinations{
+    margin: 200px 0;
+}
+
+div.featured-destinations div.info-featured{
+    margin: 100px 0 50px 0;
+    align-items: center;
+}
+
+div.featured-destinations a{
+    color: #FB8F1D;
+}
+
+div.featured-destinations h2{
+    font-size: 40px;
+}
+
+div.featured-destinations div.images{
+
+}
+
+div.featured-destinations div.image{
+    position: relative;
+}
+
+div.featured-destinations div.image img{
+    height: 100%;
+    width: 100%;
+}
+
+div.featured-destinations div.image div.info{
+    position: absolute;
+    padding: 10px;
+    background-color: white;
+    bottom: 0;
+    left: 0;
+    border-radius: 0 10px 0 0;
 }
