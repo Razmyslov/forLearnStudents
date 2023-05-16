@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 700;
+}
+
+div.info-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    margin-top: 20px;
+}
+
+header{
+    height: 80px;
+    align-items: center;
+}
+
+header div.logo{
+    width: 40px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 50%;
+}
+
+img{
+    width: 200px;
+    height: 300px;
+    border: 1px solid black;
+}
+
+div.info div.img{
+    width: 20%;
+}
+
+div.info div.img img{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+}
+
+div.info .text-right{
+    width: 75%;
+    text-align: right;
+}
+
+div.info .text-left{
+    width: 75%;
+    text-align: left;
+}
+
+div.info{
+    font-size: 24px;
+}
+
+div.info p{
+    margin: 50px 0;
+}
+
+button{
+    padding: 10px 30px;
+    background-color: #8e8ece;
+    border: none;
+    border-radius: 10px;
+}
+
+div.contact div.left, div.contact div.right{
+    width: 45%;
+}
+
+div.contact div.left{
+    font-size: 24px;
+    background-color: #c5c3c3;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+div.contact div.left p.color{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #FF00A8;
+}
+
+div.contact{
+    padding: 100px 0;
+}
+
+div.contact div.right form{
+    display: flex;
+    justify-content: right;
+    flex-wrap: wrap;
+}
+
+div.contact div.right form input,
+div.contact div.right form textarea{
+    width: 100%;
+    height: 30px;
+    border: 1px solid black;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+div.contact div.right form textarea{
+    height: 100px;
+    margin: 20px 0;
+}
+
+div.contact div.right form{
+    padding: 20px;
+    border: 1px solid black;
+}
+
+div.contact div.right form button{
+    padding: 10px 20px;
+    height: 40px;
+    background-color: #c0c0c0;
+}
+
+footer{
+    border-top: 3px solid black;
+    padding: 20px;
+}
+
+footer div.right{
+    border: 1px solid black;
+    padding: 10px;
+}
+
+footer div.bottom{
+    margin-top: 20px;
+    text-align: center;
+}
