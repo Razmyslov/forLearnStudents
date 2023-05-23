@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Todo list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="container">
+        <nav>
+            <button id="view-all" class="button-nav gray">Все задачи</button>
+            <button id="view-complete" class="button-nav green">Выполненные</button>
+            <button id="view-overdue" class="button-nav red">Просроченные</button>
+        </nav>
+    </header>
+    <main class="container">
+        <h3 id="title-tasks" class="title-tasks title-all">Все задачи</h3>
+        <div class="tasks">
+            <div class="task all" id="task-id-1">
+                <div class="info">
+                    <h3 class="task-name">Name title</h3>
+                    <p class="task-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur blanditiis consectetur, consequuntur dicta dolorem dolores error est eveniet fugiat, incidunt inventore perspiciatis porro reiciendis rerum suscipit temporibus, totam velit.</p>
+                    <p class="task-date">
+                        <span class="date-start">2023-05-11 12:12</span>
+                        до
+                        <span class="date-end">2023-05-11 14:45</span>
+                    </p>
+                </div>
+                <div class="navigate">
+                    <button class="button-complete green">Завершено</button>
+                    <button class="button-delete red">Удалить</button>
+                </div>
+            </div>
+            <div class="task complete" id="task-id-2">
+                <div class="info">
+                    <h3 class="task-name">Name title</h3>
+                    <p class="task-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur blanditiis consectetur, consequuntur dicta dolorem dolores error est eveniet fugiat, incidunt inventore perspiciatis porro reiciendis rerum suscipit temporibus, totam velit.</p>
+                    <p class="task-date">
+                        <span class="date-start">2023-05-11 12:12</span>
+                        до
+                        <span class="date-end">2023-05-11 14:45</span>
+                    </p>
+                </div>
+                <div class="navigate">
+                    <button class="button-delete red">Удалить</button>
+                </div>
+            </div>
+            <div class="task overdue" id="task-id-3">
+                <div class="info">
+                    <h3 class="task-name">Name title</h3>
+                    <p class="task-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. A aspernatur blanditiis consectetur, consequuntur dicta dolorem dolores error est eveniet fugiat, incidunt inventore perspiciatis porro reiciendis rerum suscipit temporibus, totam velit.</p>
+                    <p class="task-date">
+                        <span class="date-start">2023-05-11 12:12</span>
+                        до
+                        <span class="date-end">2023-05-11 14:45</span>
+                    </p>
+                </div>
+                <div class="navigate">
+                    <button class="button-delete red">Удалить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
