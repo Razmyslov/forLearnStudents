@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+}
+
+.container{
+    width: 1200px;
+    margin: 40px auto;
+}
+
+button{
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.gray{background-color: gray;}
+.green{background-color: green;}
+.red{background-color: red;}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .button-nav{
+    width: 20%;
+    height: 40px;
+}
+
+main h3.title-tasks{
+    text-align: center;
+    padding: 10px;
+}
+
+.title-all{
+    border-bottom: 3px solid gray;
+}
+.title-complete{
+    border-bottom: 3px solid green;
+}
+.title-overdue{
+    border-bottom: 3px solid red;
+}
+
+.all{
+    border-left: 5px solid black;
+    background-color: #D9D9D9;
+}
+
+.complete{
+    border-left: 5px solid green;
+    background-color: #C3D2AE;
+}
+
+.overdue{
+    border-left: 5px solid red;
+    background-color: #F8ADAD;
+}
+
+main div.task{
+    margin: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 10px 20px 30px;
+}
+
+div.task div.info{
+    width: 90%;
+}
+
+div.task div.info p.task-description{
+    margin: 15px 0;
+}
+
+div.task div.navigate{
+    width: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+div.task div.navigate button{
+    width: 100%;
+    /*height: 40%;*/
+    margin: 5px;
+    border-radius: 0;
+}
+
+.button-complete{
+}
+
+div.task h3{
+
+}
