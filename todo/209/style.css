@@ -92,9 +92,11 @@ div.task div.navigate button{
     border-radius: 0;
 }
 
-.button-complete{
-}
-
-div.task h3{
-
+div.not-found-tasks{
+    height: 600px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
 }
