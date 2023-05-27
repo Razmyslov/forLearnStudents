@@ -132,7 +132,43 @@ function generateTasks(type){
         })
     })
 
-    
+    const openShowForm = document.getElementById('openShowForm');
+    const addTask = document.querySelector('div.add-task')
+    openShowForm.addEventListener('click', () => {
+        addTask.style.display = 'flex';
+        openShowForm.style.display = 'none';
+    });
+
+    document.getElementById('exitForm').addEventListener('click', () => {
+        addTask.style.display = 'none';
+        openShowForm.style.display = 'block';
+    })
+
+    const form = document.querySelector('form');
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
+        
+        const inputs = document.querySelectorAll('form input');
+        let task = {
+            title: '',
+            description: '',
+            startDate: new Date().toLocaleDateString() + ' ' + new Date().toLocaleTimeString(),
+            endDate: ''
+        }
+        
+        inputs.forEach(input => {
+            if(input.id === 'endDate'){
+                task.endDate = input.value.split('-').reverse().join('.')
+            } else if(input.id === 'endDateTime') {
+                task.endDate += ` ${input.value}`
+            }else {
+                task[input.id] += input.value
+            }
+        })
+
+        console.log(task);
+
+    })
 
 }
 

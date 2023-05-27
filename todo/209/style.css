@@ -107,7 +107,7 @@ div.add-task{
     background-color: rgba(187, 187, 198, 60%);
     height: 100vh;
     width: 100vw;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
 }
@@ -152,4 +152,14 @@ div.add-task button#exitForm{
     right: 0;
     top: 0;
     border-radius: 0 5px 0 0;
+}
+
+button#openShowForm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
 }
