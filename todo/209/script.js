@@ -106,18 +106,33 @@ function generateTasks(type){
     const buttonComplete = document.querySelectorAll('button.button-complete');
     buttonComplete.forEach( button => {
         button.addEventListener('click', event => {
-            console.log( button.parentNode.parentNode.id )
             let id = Number( button.parentNode.parentNode.id.split('-')[2] )
             let tasks = get()
             let index = tasks.all.findIndex((obj) => obj.id === id);
 
-            tasks.complete.push( tasks.all[index] );
+            tasks.complete.push(tasks.all[index]);
             tasks.all.splice(index, 1);
 
             set(tasks)
             generateTasks(type)
         })
     })
+
+    const buttonDelete = document.querySelectorAll('button.button-delete');
+    buttonDelete.forEach( button => {
+        button.addEventListener('click', event => {
+            const id = Number(button.parentNode.parentNode.id.split('-')[2]);
+            const tasks = get();
+            const index = tasks[type].findIndex( obj => obj.id === id);
+
+            tasks[type].splice(index, 1);
+
+            set(tasks);
+            generateTasks(type);
+        })
+    })
+
+    
 
 }
 
