@@ -4,7 +4,7 @@ const tasks = {
     overdue: [{id:9, title: 'Title9', description: 'Description 9', startDate: '', endDate:''},{id:10, title: 'Title10', description: 'Description 10', startDate: '', endDate:''}]
 }		
 
-// set(tasks)
+// set(tasks);
 
 if(!localStorage.getItem('tasks')){
     localStorage.setItem('tasks', JSON.stringify({
@@ -84,6 +84,24 @@ function generateTasks(type){
     }
 
     placeTasks.innerHTML = html;
+
+    const completeButtons = document.querySelectorAll('button.button-complete');
+    completeButtons.forEach( button => {
+        button.addEventListener('click', event => {
+            const id = Number(button.parentNode.parentNode.id.split('-')[2]);
+            const tasks = get();
+            const index = tasks.all.findIndex( (task) => task.id === id);
+
+            tasks.complete.push( tasks.all[index] );
+            tasks.all.splice(index, 1);
+
+            set(tasks);
+
+            generateTasks(type);
+        });
+    });
+
+    
 
 }
 
