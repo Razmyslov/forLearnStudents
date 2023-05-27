@@ -99,3 +99,66 @@ div.not-found-tasks{
     justify-content: center;
     align-items: center;
 }
+
+div.add-task{
+    position: absolute;
+    top: 0;
+    background-color: rgba(187, 187, 198, 60%);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.add-task div.form{
+    padding: 40px;
+    border-radius: 10px;
+    background-color: white;
+    text-align: center;
+    position: relative;
+}
+
+div.add-task form{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+div.add-task input{
+    width: 47%;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid black;
+    margin-bottom: 30px;
+    padding-left: 10px;
+}
+
+div.add-task button#addTask{
+    width: 100%;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgb(138, 183, 138);
+    font-size: 20px;
+}
+
+div.add-task button#exitForm{
+    padding: 5px 15px;
+    background-color: red;
+    color: white;
+    position: absolute;
+    right: 0;
+    top: 0;
+    border-radius: 0 5px 0 0;
+}
+
+button#openShowForm{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background-color: blue;
+    padding: 5px 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}

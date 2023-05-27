@@ -101,8 +101,20 @@ function generateTasks(type){
         });
     });
 
-    
+    const deleteButtons = document.querySelectorAll('button.button-delete');
+    deleteButtons.forEach( button => {
+        button.addEventListener('click', ()=>{
+            const id = Number(button.parentNode.parentNode.id.split('-')[2]);
+            const tasks = get();
+            const index = tasks[type].findIndex( obj => obj.id === id )
+
+            tasks[type].splice(index, 1);
+
+            set(tasks);
+            generateTasks(type);
+        });
+    });
 
 }
 
-window.onload = generateTasks('all')
+window.onload = generateTasks('all');

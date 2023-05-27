@@ -13,10 +13,31 @@
             <button id="view-overdue" class="button-nav red">Просроченные</button>
         </nav>
     </header>
+    
     <main class="container">
         <h3 id="title-tasks" class="title-tasks title-all">Все задачи</h3>
         <div class="tasks"></div>
     </main>
+
+    <button id="openShowForm">Добавить задачу</button>
+
+    <div class="add-task">
+        <div class="form">
+            <h2>Добавить задачу</h2>
+            <form>
+                <input type="text" placeholder="Title task" name="title" id="title">
+                <input type="text" placeholder="Descrition task" name="description" id="description">
+
+                <input type="date" id="endDate">
+                <input type="time" id="endDateTime">
+
+                <button id="addTask">Добавить задачу</button>
+            </form>
+
+            <button id="exitForm">close</button>
+
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
